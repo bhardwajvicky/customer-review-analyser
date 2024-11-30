@@ -1,5 +1,4 @@
-﻿
-using ReviewerApp.Service;
+﻿using ReviewerApp.Service;
 using System.Text.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,7 +11,7 @@ namespace NewConsoleProject
         private const string ReviewFile = "review-fleet.txt";
         private const string PromptsPath = "PROMPTS-fleet";
         
-        //***Reivew & Promts for Online Insurance Company
+        //***Review & Prompts for Online Insurance Company
         //private const string ReviewFile = "review-insurance.txt";
         //private const string PromptsPath = "PROMPTS-insurance";
 
