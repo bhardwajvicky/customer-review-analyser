@@ -1,0 +1,18 @@
+{
+  "OpenAI": {
+    // The model to use for completions. Common values:
+    // - "gpt-4"        (Most capable model)
+    // - "gpt-3.5-turbo" (Good balance of capability and speed)
+    "Model": "<your-model-name>",
+
+    // Your OpenAI API key
+    // Format: "sk-..." (Find this in your OpenAI dashboard)
+    // IMPORTANT: Keep this secret and never commit to source control
+    "ApiKey": "<your-api-key>"
+  }
+}
+
+// Instructions:
+// 1. Copy this file and rename to 'appsettings.json'
+// 2. Replace the placeholders with your actual values
+// 3. Add appsettings.json to .gitignore

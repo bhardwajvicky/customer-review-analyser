@@ -1,0 +1,9 @@
+Summary: Generate a summary in few bullet points. 
+Add these information in a JSON object with the following structure:
+    {
+        ""Summary"": [
+            ""<bullet point 1>"",
+            ""<bullet point 2>"",
+            ...
+        ]
+    }

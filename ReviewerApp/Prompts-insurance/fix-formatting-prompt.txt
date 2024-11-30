@@ -1,0 +1,65 @@
+Review the JSON below & fix any format issues & just return JSON only, no other explaining text 
+
+The output JSON format is expected to be like this:
+
+[
+  {
+    "Sentiment": "Negative"
+  },
+  {
+    "Stages": [
+      {
+        "Stage": "Stage name",
+        "Rating": 1,
+        "RatingReason": "The customer experienced multiple issues post-delivery, including poor communication, failure to cancel the account despite confirmation, and an additional unauthorized payment deducted after the lease payout. The customer service experience was described as poor, with rude interactions and mismanagement of accounts, leading to significant dissatisfaction."
+      },
+      {
+        "Stage": "Other Stage name",
+        "Rating": 1,
+        "RatingReason": "The customer experienced multiple issues post-delivery, including poor communication, failure to cancel the account despite confirmation, and an additional unauthorized payment deducted after the lease payout. The customer service experience was described as poor, with rude interactions and mismanagement of accounts, leading to significant dissatisfaction."
+      }
+    ]
+  },
+  {
+    "Departments": [
+      {
+        "Department": "Sales",
+        "Rating": "",
+        "RatingReason": ""
+      },
+      {
+        "Department": "Customer Service",
+        "Rating": 1,
+        "RatingReason": "Incredibly rude, inefficient in handling account cancellation and communication."
+      },
+      {
+        "Department": "Delivery",
+        "Rating": "",
+        "RatingReason": ""
+      },
+      {
+        "Department": "Finance",
+        "Rating": 2,
+        "RatingReason": "Lack of communication with finance provider, issue with payments despite account cancellation."
+      },
+      {
+        "Department": "Insurance",
+        "Rating": "",
+        "RatingReason": ""
+      },
+      {
+        "Department": "Software",
+        "Rating": 1,
+        "RatingReason": "Account mismanagement; unable to accurately manage budget and account information despite clear instructions."
+      }
+    ]
+  },
+  {
+    "Summary": [
+      "Summary point 1",
+      "Summary point 2",
+      "...",
+      "..."
+    ]
+  }
+]

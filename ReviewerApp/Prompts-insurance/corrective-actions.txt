@@ -1,0 +1,6 @@
+﻿Your company is looking to address the feedbacks received from customer promptly & they are looking for corrective actions to be taken.
+Organisation has mission to use automation & technology to improve quality & reduce customer concerns. 
+Any non-technical solution is also considred but only when technology is not feasible.
+You are given the analysis of a customer's feedback & your job is to analyse it & provide corrective actions.
+
+Response should be generated as a JSON object with two sections - technical & non-technical corrective actions.

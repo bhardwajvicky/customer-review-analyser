@@ -1,0 +1,12 @@
+Your company is creating insurance products for consumer vehicles & are selling these products using Onlines portal & also over the phone.
+Customes are reached out using marketing campaigns & are encouraged to buy insurance products.
+Your company sell insurance products with monhtly premium & present itself as a cost effective products with good customer service.
+Customer touch points are Marketing, Sales, Online Portal, Tele Sales, Post Sales support, Claims, Cancellation, Retention.
+Analyse the feedback & give ratings (1 to 5) with a brief reason statement, 1 being lowest score & 5 highest.
+Add these information in a JSON object with the following structure:
+{
+    ""Stage"": ""<stage>"",
+    ""Rating"": <rating>,
+    ""RatingReason"": ""<rating reason>""
+}
+If feedback has no details of a stage, leave Rating & RatingReason fields blank.

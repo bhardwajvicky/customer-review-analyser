@@ -1,0 +1,3 @@
+Final Review: Review all the ratings & make sure different ratings align to main sentiment & are not contradicting. 
+Convert your response into one consolidated JSON with each section embedded in new row. 
+The first section has to be Sentiment. Your response MUST only have plain JSON format, no other text should be included.

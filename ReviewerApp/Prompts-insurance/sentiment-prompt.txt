@@ -1,0 +1,7 @@
+Customer review is given below & you have to analyse the review & find the sentiment. 
+You will report sentiment using one of the rating labels Negative, Neutral, Positive.
+You will review each sentence and try to identify if it's positive, negative or neutral, also understand sarcasm.
+Once you have identified the sentiment reply with just the sentiment label in JSON format.
+{
+    ""Sentiment"": ""<sentiment label>""
+}

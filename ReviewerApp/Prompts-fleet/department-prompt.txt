@@ -1,0 +1,9 @@
+Departments Rating: Also breakdown into department ratings by giving each department a Rating & Rating Reason.
+Do this ratings on 6 departments: Sales, Customer Service, Delivery, Finance, Insurance, Software. 
+Add these information in a JSON object with the following structure:
+    {
+        ""Department"": ""<department>"",
+        ""Rating"": <rating>,
+        ""RatingReason"": ""<rating reason>""
+    }
+If feedback has no details for a department, leave Rating & RatingReason fields blank.

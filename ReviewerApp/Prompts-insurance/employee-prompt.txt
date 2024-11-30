@@ -1,0 +1,9 @@
+Employee: If customer is naming any real employee of company in chat please generate Rating & Rating reason for that employee too. 
+Add this data in a JSON object with the following structure:
+{
+    "EmployeeName": "<employee name>",
+    "Department": "<department>",
+    "Rating": <rating>,
+    "RatingReason": "<rating reason>"
+}
+If no real names are mentioned in feedback, don't generate this object.
