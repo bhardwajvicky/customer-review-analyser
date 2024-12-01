@@ -10,8 +10,15 @@ This project analyzes customer reviews using OpenAI's GPT model to generate insi
 
 ## Usage
 
-1. Place your review files in the `reviews` folder.
-2. Use the appropriate prompt files from the `PROMPTS-fleet` or `PROMPTS-insurance` folders based on the industry you are analyzing.
+You are provided with two ready examples to test with:
+
+1. **Online Insurance Company Example**:
+   - Prompts are in the `PROMPTS-insurance` folder.
+   - One customer review from Google is stored in `reviews/review-insurance.txt`.
+
+2. **Fleet Management Company Example**:
+   - Prompts are in the `PROMPTS-fleet` folder.
+   - One customer review from Google Reviews is stored in `reviews/review-fleet.txt` file.
 
 ### Reviews Folder
 
