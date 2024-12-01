@@ -19,6 +19,8 @@ You are provided with two ready examples to test with:
 2. **Fleet Management Company Example**:
    - Prompts are in the `PROMPTS-fleet` folder.
    - One customer review from Google Reviews is stored in `reviews/review-fleet.txt` file.
+- You can test by enabling relevant code section in the Program.cs
+- ![image](https://github.com/user-attachments/assets/0287c17d-2043-45c4-8505-dd289ce616d9)
 
 ### Reviews Folder
 
